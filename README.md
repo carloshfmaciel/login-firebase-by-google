@@ -44,7 +44,7 @@ No diretório **react-google-authentication** na raiz desse repositório, conté
 1. Para instalar e rodar o projeto é necessário ter instalado
 - NodeJs
 
-2. Após isso, basta entrar no diretório e instalar as dependências do projeto
+2. Após isso, basta entrar no diretório **login-firebase-by-google** na raiz desse repo e instalar as dependências do projeto
 ```
 yarn install
 ```
