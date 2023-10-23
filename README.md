@@ -10,28 +10,28 @@ Esse repositório foi criado para demonstrar como fazer login no firebase manual
 
 ## Como obter a apiKey de acesso ao Firebase
 
-1 - No projeto Firebase, do lado superior esquerdo clique no ícone de engrenagem e clique em **Configurações do Projeto**
+1. No projeto Firebase, do lado superior esquerdo clique no ícone de engrenagem e clique em **Configurações do Projeto**
 
 ![image](screenshots/0001.PNG)
 
-2 - Na aba Geral, desça até a parte de aplicativos e escolha um do tipo **App da Web**
+2. Na aba Geral, desça até a parte de aplicativos e escolha um do tipo **App da Web**
 
 ![image](screenshots/0002.PNG)
 
-3 - Após isso, será possível visualizar do lado direito uma configuração que conterá uma propriedade **apiKey**
+3. Após isso, será possível visualizar do lado direito uma configuração que conterá uma propriedade **apiKey**
 
 ![image](screenshots/0003.PNG)
 
-4 - Basta copiar essa chave que será usada para conectar no Firebase
+4. Basta copiar essa chave que será usada para conectar no Firebase
 
 ## Como obter a apiKey de acesso ao Google
 
-1 - No menu lateral esquerdo, clicar na opção Criação > Authentication, clicar na Aba **Sign-in method** e clicar na opção **Editar Configurações** na linha do Google
-    - Caso o Google não esteja ativado, você deve ativá-lo.
+1. No menu lateral esquerdo, clicar na opção Criação > Authentication, clicar na Aba **Sign-in method** e clicar na opção **Editar Configurações** na linha do Google
+- Caso o Google não esteja ativado, você deve ativá-lo.
 
 ![image](screenshots/0004.PNG)
 
-2 - Na tela que se abrirá, basta clicar na linha da opção **Configuração do SDK da Web** e copiar a chave do campo **ID do cliente da Web**
+2. Na tela que se abrirá, basta clicar na linha da opção **Configuração do SDK da Web** e copiar a chave do campo **ID do cliente da Web**
 
 ![image](screenshots/0005.PNG)
 
@@ -41,28 +41,28 @@ No diretório **react-google-authentication** na raiz desse repositório, conté
 
 ## Instalando o projeto reactjs **react-google-authentication**
 
-1 - Para instalar e rodar o projeto é necessário ter instalado
+1. Para instalar e rodar o projeto é necessário ter instalado
 - NodeJs
 
-2 - Após isso, basta entrar no diretório e instalar as dependências do projeto
+2. Após isso, basta entrar no diretório e instalar as dependências do projeto
 ```
 yarn install
 ```
 
-3 - Dentro do projeto, no arquivo **config.json**, na propriedade **googleApiKey** setar a apiKey do Google obtida anteriormente.
+3. Dentro do projeto, no arquivo **config.json**, na propriedade **googleApiKey** setar a apiKey do Google obtida anteriormente.
 
 ![image](screenshots/0006.PNG)
 
-4 - Startar o projeto
+4. Startar o projeto
 ```
 yarn start
 ```
 
-5 - Na aplicação, clicar na opção **Sign in with Google**, será aberto uma janela para fazer login no Google.
+5. Na aplicação, clicar na opção **Sign in with Google**, será aberto uma janela para fazer login no Google.
 
 ![image](screenshots/0007.PNG)
 
-6 - Após o login do Google, será exibido na tela o TokenId do google referente ao login feito. Copie o mesmo.
+6. Após o login do Google, será exibido na tela o TokenId do google referente ao login feito. Copie o mesmo.
 
 ![image](screenshots/0008.PNG)
 
