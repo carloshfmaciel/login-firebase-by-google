@@ -4,9 +4,9 @@ Esse repositório foi criado para demonstrar como fazer login no firebase manual
 
 # Como fazer?
 
-1 - Ter um projeto firebase configurado
-2 - Ter no projeto firebase ter um App Web para acesso ao Firebase através de uma apiKey
-3 - Ter no projeto firebase o Signin Method Google ativado
+1. Ter um projeto firebase configurado
+2. Ter no projeto firebase ter um App Web para acesso ao Firebase através de uma apiKey
+3. Ter no projeto firebase o Signin Method Google ativado
 
 ## Como obter a apiKey de acesso ao Firebase
 
