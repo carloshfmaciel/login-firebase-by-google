@@ -8,11 +8,13 @@ import { refreshTokenSetup } from '../utils/refreshToken';
 
 const clientId = config.googleApiKey;
 
-function LoginHooks() {
+function LoginGoogleHooks({props}) {
 
   const [getGoogleResponse, setGoogleResponse ] = useState();
+  const [isGoogleLogged, setIsGoogleLogged ] = useState(props);
 
   const onSuccess = (res) => {
+    setIsGoogleLogged(true);
     setGoogleResponse(res);
     console.log('Login Success: currentUser:', res);
     alert(
@@ -22,6 +24,7 @@ function LoginHooks() {
   };
 
   const onFailure = (res) => {
+    setIsGoogleLogged(false);
     console.log('Login failed: res:', res);
     alert(
       `Failed to login. 😢 Please ping this to repo owner twitter.com/sivanesh_fiz`
@@ -54,4 +57,4 @@ function LoginHooks() {
   );
 }
 
-export default LoginHooks;
+export default LoginGoogleHooks;

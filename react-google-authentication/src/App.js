@@ -1,9 +1,11 @@
 import React from 'react';
 import './App.css';
-import Login from './components/Login';
-import Logout from './components/Logout';
-import LoginHooks from './components/LoginHooks';
-import LogoutHooks from './components/LogoutHooks';
+//import Login from './components/Login';
+//import Logout from './components/Logout';
+import LoginGoogle from './components/LoginGoogleHooks';
+import LogoutGoogle from './components/LogoutGoogleHooks';
+import LoginFacebook from './components/LoginFacebook';
+import LogoutFacebook from './components/LogoutFacebook';
 
 function App() {
   return (
@@ -14,15 +16,13 @@ function App() {
       <br />
       <Logout />
       */}
-      <h2>Login Google - Utilizando React Hooks</h2>
-      <LoginHooks />
-      <LogoutHooks />
-      <br />
-      If it does helped you feel free to star{' '}
-      <a href="https://github.com/Sivanesh-S/react-google-authentication">
-        Github Repo
-      </a>{' '}
-      😉
+      <h2>Login Google</h2>
+      <LoginGoogle />
+      <LogoutGoogle />
+      <br/>
+      <h2>Login Facebook</h2>
+      <LoginFacebook />
+      <LogoutFacebook />
     </div>
   );
 }

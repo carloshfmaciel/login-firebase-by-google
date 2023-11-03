@@ -4,7 +4,7 @@ import { useGoogleLogout } from 'react-google-login';
 
 const clientId = config.googleApiKey;
 
-function LogoutHooks() {
+function LogoutGoogle({props}) {
 
   const onLogoutSuccess = (res) => {
     console.log('Logged out Success');
@@ -30,4 +30,4 @@ function LogoutHooks() {
   );
 }
 
-export default LogoutHooks;
+export default LogoutGoogle;
