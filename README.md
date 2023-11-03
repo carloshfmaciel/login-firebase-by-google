@@ -76,7 +76,7 @@ A api do firebase abaixo tem a seguinte finalidade:
 - Caso o usuário já exista no Firebase(já tenha feito login no mesmo), o Firebase simplesmente cria uma sessão retornando um token Firebase válido
 - Com esse token Firebase o usuário estará logado, podendo chamar qualquer aplicação que esteja conectada no mesmo Firebase
 
-**API**
+**API Firebase para obter um acess token passando um token do google(após o usuário ter logado no google)**
 
 ```
 POST https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyAssertion?key={API KEY FIREBASE}
